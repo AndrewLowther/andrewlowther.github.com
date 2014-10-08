@@ -1,0 +1,24 @@
+{
+  "name": "andrew.lowther.name",
+  "version": "1.0.0",
+  "authors": [
+    "Andrew Lowther <andrew.lowther@mademedia.co.uk>"
+  ],
+  "description": "Personal site",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://andrew.lowther.name",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  	"angular": "1.2.26",
+  	"ngAnimate": "master",
+  	"angular-loading-bar": "0.6.0"
+  }
+}
