@@ -4,6 +4,9 @@ function Router($routeProvider) {
 			templateUrl: 'public/views/index.html',
 			controller: 'IndexCtrl as vm',
 			resolve: IndexCtrl.resolve
+		})
+		.otherwise({
+			redirectTo: '/'
 		});
 };
 
