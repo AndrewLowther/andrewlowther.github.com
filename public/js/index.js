@@ -3,4 +3,7 @@ angular
 		'ngRoute',
 		'ngAnimate',
 		'angular-loading-bar'
-	]);
+	])
+	.config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
+		cfpLoadingBarProvider.includeSpinner = false;
+	}]);
