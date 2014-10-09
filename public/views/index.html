@@ -1,5 +1,11 @@
-<h1>I am some content</h1>
+<h1>Articles</h1>
 
-<ul>
-	<li ng-repeat="post in vm.posts">{{ post.title }}</li>
-</ul>
+<div class="row">
+	<div class="col-md-4" ng-repeat="post in vm.posts">
+		<h2>{{ post.title }}</h2>
+		<p>{{ post.description }}</p>
+		<p>
+			<a href="/#/posts/{{ post.id }}" class="btn btn-default">View details &raquo;</a>
+		</p>
+	</div>
+</div>
