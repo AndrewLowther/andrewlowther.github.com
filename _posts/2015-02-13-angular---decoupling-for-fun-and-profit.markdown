@@ -11,7 +11,7 @@ With front-end frameworks iterating at such a rapid rate, we identified quickly 
 
 ## Enter Require.js
 
-If you've not heard of [require.js](http://requirejs.org/) I'd suggest you head over to their site and educate yourself. At its core, require is a tool for allowing a end dev to inject functionality into their applications, without that applications having to know about a specific framework or library we're using.
+If you've not heard of [require.js](http://requirejs.org/) I'd suggest you head over to their site and educate yourself. At its core, require is a tool for allowing a dev to inject functionality into their applications, without that applications having to know about a specific framework or library we're using.
 
 What this allows for is an application that can have all business logic that has no knowledge of the framework whatsoever, and therefore is portable, but also services that do have a knowledge of the framework and can use the services provided.
 
